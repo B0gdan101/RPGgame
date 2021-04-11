@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://UI/Buttons/MenuButton.tscn" type="PackedScene" id=1]
+[ext_resource path="res://UI/Background.tscn" type="PackedScene" id=2]
+
+[node name="OptionsMenu" type="Node2D"]
+
+[node name="Sprite" parent="." instance=ExtResource( 2 )]
+
+[node name="Button" parent="." instance=ExtResource( 1 )]
+margin_left = 408.0
+margin_top = 632.0
+margin_right = 560.0
+margin_bottom = 672.0
+text = "Audio"
+
+[node name="Button2" parent="." instance=ExtResource( 1 )]
+margin_left = 576.0
+margin_top = 632.0
+margin_right = 728.0
+margin_bottom = 672.0
+text = "Video"
+
+[node name="Button3" parent="." instance=ExtResource( 1 )]
+margin_left = 744.0
+margin_top = 632.0
+margin_right = 896.0
+margin_bottom = 672.0
+text = "Keybinds"
