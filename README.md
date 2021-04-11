@@ -1,10 +1,10 @@
 # RPGgame
 
-Requirements
+## Requirements
 
-Am decis sa cream acest joc cu scopul de a oferi un mod placut, dar in acelasi timp challenging , tuturor persoanelor de a-si ocupa timpul, evadand intr-o lume fantastica, unde isi pot croi propriile destine.
+#### Am decis sa cream acest joc cu scopul de a oferi un mod placut, dar in acelasi timp challenging , tuturor persoanelor de a-si ocupa timpul, evadand intr-o lume fantastica, unde isi pot croi propriile destine.
 	
-Specifications 
+## Specifications 
 
 Game Engine
 	
