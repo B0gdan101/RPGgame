@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://UI/Buttons/SelectedButton.tres" type="StyleBox" id=1]
 [ext_resource path="res://UI/Buttons/NonSelectedButton.tres" type="StyleBox" id=2]
+[ext_resource path="res://UI/Buttons/MenuButton.gd" type="Script" id=3]
 
 [node name="Button" type="Button"]
 margin_right = 152.0
@@ -10,6 +11,7 @@ custom_styles/hover = ExtResource( 1 )
 custom_styles/pressed = ExtResource( 1 )
 custom_styles/focus = ExtResource( 1 )
 custom_styles/normal = ExtResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

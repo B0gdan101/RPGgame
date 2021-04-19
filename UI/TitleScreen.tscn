@@ -12,6 +12,7 @@ margin_left = 776.0
 margin_top = 640.0
 margin_right = 912.0
 margin_bottom = 680.0
+focus_neighbour_left = NodePath("../Start")
 text = "Exit"
 
 [node name="Options" parent="." instance=ExtResource( 1 )]
@@ -19,11 +20,17 @@ margin_left = 408.0
 margin_top = 640.0
 margin_right = 544.0
 margin_bottom = 680.0
+focus_neighbour_right = NodePath("../Start")
 text = "Options"
+reference_path = "res://UI/OptionsMenu.tscn"
 
 [node name="Start" parent="." instance=ExtResource( 1 )]
 margin_left = 568.0
 margin_top = 640.0
 margin_right = 752.0
 margin_bottom = 680.0
+focus_neighbour_left = NodePath("../Options")
+focus_neighbour_right = NodePath("../Exit")
 text = "Start Game"
+reference_path = "res://World.tscn"
+start_focused = true
