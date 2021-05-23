@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://levels/Level.gd" type="Script" id=1]
 [ext_resource path="res://core/world/tilesets/outdoor/outdoor.tres" type="TileSet" id=2]
 [ext_resource path="res://core/world/Gap.tscn" type="PackedScene" id=3]
 [ext_resource path="res://monsters/porcupine/Porcupine.tscn" type="PackedScene" id=4]
 [ext_resource path="res://monsters/mosquito/Nest.tscn" type="PackedScene" id=5]
-[ext_resource path="res://actors/characters/seller/Seller.tscn" type="PackedScene" id=6]
 [ext_resource path="res://core/world/PlayerSpawningPoint.tscn" type="PackedScene" id=7]
 [ext_resource path="res://core/world/Door.tscn" type="PackedScene" id=8]
 
@@ -66,9 +65,6 @@ position = Vector2( 384, 912 )
 
 [node name="Nest3" parent="YSort" instance=ExtResource( 5 )]
 position = Vector2( 1088, 2576 )
-
-[node name="Seller" parent="YSort" instance=ExtResource( 6 )]
-position = Vector2( 3056, 1232 )
 
 [node name="PlayerSpawningPoint" parent="." instance=ExtResource( 7 )]
 position = Vector2( 5044.45, 2671.25 )
