@@ -21,13 +21,13 @@ Game description
 Game controls	
 
 	W, A, S, D – move character
-	Esc – pause game
-	Space – Jump
-	F – interact
+	Esc – exit game
+	Space – jump
+	F – attack
 	
 Combat
 
-	?Turn-Based?	
+	Hack and Slash	
 	
 Skills
 
