@@ -1,36 +1,30 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://UI/Buttons/MenuButton.tscn" type="PackedScene" id=1]
-[ext_resource path="res://UI/Background.tscn" type="PackedScene" id=2]
+[ext_resource path="res://UI/68747470733a2f2f692e696d6775722e636f6d2f7a5735367173302e706e67.png" type="Texture" id=2]
 
 [node name="TitleScreen" type="Node2D"]
 
-[node name="Sprite" parent="." instance=ExtResource( 2 )]
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 960, 285.443 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 2 )
 
 [node name="Exit" parent="." instance=ExtResource( 1 )]
-margin_left = 776.0
-margin_top = 640.0
-margin_right = 912.0
-margin_bottom = 680.0
+margin_left = 768.0
+margin_top = 592.83
+margin_right = 1152.0
+margin_bottom = 652.83
 focus_neighbour_left = NodePath("../Start")
 text = "Exit"
 
-[node name="Options" parent="." instance=ExtResource( 1 )]
-margin_left = 408.0
-margin_top = 640.0
-margin_right = 544.0
-margin_bottom = 680.0
-focus_neighbour_right = NodePath("../Start")
-text = "Options"
-reference_path = "res://UI/OptionsMenu.tscn"
-
 [node name="Start" parent="." instance=ExtResource( 1 )]
-margin_left = 568.0
-margin_top = 640.0
-margin_right = 752.0
-margin_bottom = 680.0
+margin_left = 640.0
+margin_top = 514.536
+margin_right = 1280.0
+margin_bottom = 574.536
 focus_neighbour_left = NodePath("../Options")
 focus_neighbour_right = NodePath("../Exit")
 text = "Start Game"
-reference_path = "res://World.tscn"
+reference_path = "res://Demo.tscn"
 start_focused = true
