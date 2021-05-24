@@ -1,14 +1,30 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://UI/Buttons/MenuButton.tscn" type="PackedScene" id=1]
-[ext_resource path="res://UI/68747470733a2f2f692e696d6775722e636f6d2f7a5735367173302e706e67.png" type="Texture" id=2]
+[ext_resource path="res://interface/fonts/montserrat_black.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 100
+outline_size = 3
+outline_color = Color( 0.0156863, 0.0156863, 0.0156863, 1 )
+font_data = ExtResource( 2 )
 
 [node name="TitleScreen" type="Node2D"]
 
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 960, 285.443 )
-scale = Vector2( 1.5, 1.5 )
-texture = ExtResource( 2 )
+[node name="Label" type="Label" parent="."]
+margin_top = 90.0
+margin_right = 1918.0
+margin_bottom = 458.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.113725, 0.682353, 0.196078, 1 )
+text = "Revenge 
+of the green box"
+align = 1
+valign = 1
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Exit" parent="." instance=ExtResource( 1 )]
 margin_left = 768.0
